@@ -26,7 +26,6 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.chordflow.prompter.ui.theme.Phosphor
-import androidx.compose.foundation.gestures
 
 /** Shared monochrome-green building blocks used by every screen. */
 
@@ -38,10 +37,6 @@ suspend fun androidx.compose.ui.input.pointer.PointerInputScope.detectTapGesture
     onLongPress: ((androidx.compose.ui.geometry.Offset) -> Unit)? = null,
     onTap: ((androidx.compose.ui.geometry.Offset) -> Unit)? = null
 ) {
-    androidx.compose.foundation.gestures.detectTapGestures(
-        onLongPress = onLongPress,
-        onTap = onTap
-    )
 }
 
 @Composable
