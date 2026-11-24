@@ -26,7 +26,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.chordflow.prompter.ui.theme.Phosphor
-import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.gestures
 
 /** Shared monochrome-green building blocks used by every screen. */
 
